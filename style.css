@@ -2,6 +2,9 @@
     /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     background-color: #F6F8F9;
 }
 
@@ -16,7 +19,6 @@ header {
 
 header #logo{
     height: 90px;
-    background-color: white;
 }
 
 header h1 {
@@ -24,9 +26,7 @@ header h1 {
     line-height:10px;
     vertical-align:top;
     font-size: 65px;
-    background-color: white;
 }
-
 
 nav {
     background-color: white;
@@ -50,6 +50,55 @@ nav {
     color: white;
 }
 
-ul {
-    padding-left: 10px;
+
+main {
+    background-color: white;
+    font-size: 20px;
+    padding-left: 68px;
+    color: #40444E;
+}
+
+#lista-grande {
+    margin-top: 2px;
+}
+
+#titolo {
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.freccia {
+    list-style-type: "\25BC";
+}
+
+.spunta-verde {
+    list-style-type: "\2705";
+}
+
+.croce-rossa {
+    list-style-type: "\274C";
+}
+
+.azzurro {
+    background-color: #45abea;
+}
+
+#viola{
+    background-color: #9c72e4;
+}
+
+#verdone-scuro {
+    background-color: #64c0a9;
+}
+
+#arancione {
+    background-color: #f29e33;
+}
+
+#fucsia {
+    background-color: #d863a1;
+}
+
+#verde-chiaro {
+    background-color: #b0c926;
 }
